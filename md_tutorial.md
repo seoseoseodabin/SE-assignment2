@@ -13,18 +13,18 @@
 
  |No.|element|markdown|
  |:---:|:---:|:---:|
- |1| Heading | \# heading |
- |2| Paragraph | paragraph1<br><br>paragraph2 |
- |3| Line Break | `first line<br>second line` |
- |4| Emphasis | \*\*Bold text\*\*<br>\*Italic text\* |
- |5| Blockquote | \> blockquote |
- |6| List | 1. first item<br>2. second item |
- |7| Code | \`I am a code\` |
- |8| Horizontal Rule | *** |
- |9| Link | \[text](URL "title") |
- |10| Image | ![alt](image URL "title") |
- |11| Escaping Character | \\\* |
- |12| HTML| `<em>word</em>` |
+ |1| [Heading](#1-heading) | \# heading |
+ |2| [Paragraph](#2-paragraph) | paragraph1<br><br>paragraph2 |
+ |3| [Line Break](#3-line-break) | `first line<br>second line` |
+ |4| [Emphasis](#4-emphasis) | \*\*Bold text\*\*<br>\*Italic text\* |
+ |5| [Blockquote](#5-blockquote) | \> blockquote |
+ |6| [List](#6-list) | 1. first item<br>2. second item |
+ |7| [Code](#7-code) | \`I am a code\` |
+ |8| [Horizontal Rule](#8-horizontal-rule) | *** |
+ |9| [Link](#9-link) | \[text](URL "title") |
+ |10| [Image](#10-image) | ![alt](image URL "title") |
+ |11| [Escaping Character](#11-escaping-character) | \\\* |
+ |12| [HTML](#12-html) | `<em>word</em>` |
 
 <br><br><br>
 
