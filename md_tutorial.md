@@ -100,3 +100,111 @@
     |\_\_\*Italicized bold text\*\_\_|__*Italicized bold text*__|
     |Italicized\*\*\*bold\*\*\*text|Italicized***bold***text|
     
+<br><br>
+
+## ***5. Blockquote***
+
+- **blockquote**를 표현하기 위해 사용  
+- **단락 앞에 \>를** 붙임
+
+      > I'm in blockquote  
+
+- blockquote 안에서 **단락**을 표현할 땐 **단락 사이에 빈줄**을 넣고 **앞에 >을** 붙임
+
+      > First paragraph in blockquote  
+      >  
+      > Second paragraph in blockquote  
+
+- **중첩된 blockquote**를 사용할 땐 **중첩되는 블록 앞에 >>을** 붙여주면 됨
+
+      > Blockquote  
+      >> Nested blockquote  
+
+- blockquote 안에는 **다양한 문법 요소들**이 사용될 수 있음
+- 어떤 게 사용 가능한지는 **직접 확인**해봐야 함
+
+      > ## Heading  
+      >  
+      > - list 1  
+      > - list 2  
+      >  
+      > **Bold** and *Italicized*  
+
+<br><br>
+
+## ***6. List***
+
+- ## *Ordered List*  
+
+    - **순차적으로 번호가 붙은 목록**를 표현할 때 사용  
+    - 각 아이템 **앞에 번호와 마침표**를 붙임
+    - 앞에 붙는 번호가 꼭 순차적일 필요는 없지만, **반드시 1로 시작**해야 함  
+    - 리스트 안에서 **4칸 스페이스나 탭 한 번** 하면 **indented list**도 표현할 수 있음  
+
+          1. first item
+          2. second item
+              1. indented one
+              2. indented two
+          3. third item
+        
+          1. first item  
+          4. second item  
+          2. third item  
+  
+          1. first item  
+          1. second item  
+          1. third item  
+
+<br>
+
+- ## *Unordered List*
+
+    - **순서가 없는 목록**을 표현할 때 사용
+    - 각 아이템 앞에 **\-이나 \*, \+을** 붙임
+    - 리스트 안에서 **4칸 스페이스나 탭 한 번** 하면 **indented list**도 표현할 수 있음  
+    - 같은 리스트를 표현할 땐 **기호를 통일**시키는 것을 권장
+
+          - first item
+          - second item
+              - indented one
+              - indented two
+          - third item
+        
+          * first item  
+          * second item  
+          * third item  
+  
+          + first item  
+          + second item  
+          + third item  
+
+<br>
+
+- **리스트 안에 다른 문법 요소**를 추가할 수 있음  
+- **paragraph, blockquote, code block, image, nested list** 등
+- 추가할 땐 스페이스나 탭으로 **4칸 들여써야** 함  
+- **code block**을 사용할 땐 **보통 4칸** 들여쓰지만, **리스트 안에서는 8칸** 들여써야 함
+
+      - first item
+      - second item
+      
+          a paragraph
+      
+      - third item
+
+          > a blockquote
+      
+      - fourth item  
+
+              <html>
+                <head>
+                  <title>Test</title>
+                </head>
+      
+      - fifth item
+
+          ![What's Markdown?](https://d33wubrfki0l68.cloudfront.net/722f0d393d543949f94038accfbb3887ba9c318b/f6fc0/assets/images/atom.png)
+      
+      - sixth item  
+          1. one
+          2. two  
