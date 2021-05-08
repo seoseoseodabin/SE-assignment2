@@ -7,6 +7,25 @@
 - 각 문법마다 사용 예시를 넣어놨으니까 실제 어떻게 표현되는지는 복붙해서 확인해볼 것
 - 아래 <간략히 살표보기> 표의 element들을 누르면 해당 문법이 있는 부분으로 이동됨
 
+<br>
+
+## **간략히 살펴보기**
+
+ |No.|element|markdown|
+ |:---:|:---:|:---:|
+ |1| Heading | \# heading |
+ |2| Paragraph | paragraph1<br><br>paragraph2 |
+ |3| Line Break | `first line<br>second line` |
+ |4| Emphasis | \*\*Bold text\*\*<br>\*Italic text\* |
+ |5| Blockquote | \> blockquote |
+ |6| List | 1. first item<br>2. second item |
+ |7| Code | \`I am a code\` |
+ |8| Horizontal Rule | *** |
+ |9| Link | \[text](URL "title") |
+ |10| Image | ![alt](image URL "title") |
+ |11| Escaping Character | \\\* |
+ |12| HTML| `<em>word</em>` |
+
 <br><br><br>
 
 ## ***1. Heading***
