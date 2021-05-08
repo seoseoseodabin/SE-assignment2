@@ -208,3 +208,165 @@
       - sixth item  
           1. one
           2. two  
+
+<br><br>
+
+## ***7. Code***
+
+- 단어나 구를 **코드**로 나타낼 때는 **앞뒤에 `을** 붙임
+- 코드로 나타내려는 단어나 구에 이미 **`이 포함되어 있다면 ``을** 사용
+
+      `This is code`
+      `` This is `code` ``
+
+- **code block**을 만드려면, 스페이스나 탭으로 **4칸을 들여씀**
+
+          <html>
+            <head>
+            </head>
+          </html>
+
+<br><br>
+
+## ***8. Horizontal Rule***
+
+- **수평선**을 만들 때 사용
+- **세 개 이상의 *이나 -, _로 라인**을 구성 (어느 걸로 하든 모양은 동일)
+- 잘못하면 Heading이 될 수도 있기 때문에 **빈 줄을 위 아래로** 넣는 것이 좋음
+
+      ***
+      ---
+      _________
+
+      Try to put a blank line before...
+
+      ---
+
+      ...and after a horizontal rule.
+
+<br><br>
+
+## ***9. Link***
+
+- **링크**를 생성할 땐, **링크가 걸릴 텍스트를 대괄호로** 감싼 후, 옆에 **URL을 괄호로** 묶어주면 됨
+- **URL에는 빈 칸이 있으면 안 됨**. **%20**으로 빈칸을 채워줘야 함
+
+      [Usaint](https://saint.ssu.ac.kr)
+      [Heading](#1.%20Heading)
+
+- 링크에 **타이틀**을 추가할 수도 있음
+- 타이틀을 추가하면 마우스 커서로 링크를 가리킬 때 **툴팁**이 뜸
+- 타이틀은 **" "로** 감싸진 형태로 **URL 옆에** 위치함
+
+      [Usaint](https://saint.ssu.ac.kr "Soongsil University")
+
+- **URL이나 이메일**을 **링크로 변환**시키는 것도 가능
+- URL이나 이메일을 **꺽쇠괄호로 묶어**주면 됨
+
+      <https://saint.ssu.ac.kr>
+      <email@example.com>
+
+- **링크를 강조**하거나, **코드**로 나타내는 것도 가능
+
+      **[Usaint](https://saint.ssu.ac.kr)**
+      *[Usaint](https://saint.ssu.ac.kr)*
+      [`Usaint`](https://saint.ssu.ac.kr)
+
+<br>
+
+- ## *Reference-style Link*
+    - 마크다운은 **링크가 걸린 텍스트와 URL을 분리**해서 저장할 수 있는 **레퍼런스 스타일의 링크**도 지원
+    - reference-style link는 **총 두 부분**으로 구성됨. **(1)본문의 링크가 걸린 텍스트 부분**과 **(2)문서 어딘가에 URL이 저장된 부분**
+    
+    <br>
+
+    - (1)은 **두 개의 대괄호 묶음**으로 구성됨  
+    - 첫 번째 대괄호에는 **링크가 걸릴 텍스트**가, 두 번째 대괄호에는 (1)을 (2)와 연결해줄 **인덱스**가 들어감  
+    - 인덱스에는 **문자나 숫자, 스페이스나 마침표**가 들어갈 수 있음  
+    - **두 대괄호 묶음 사이를 띄어쓰는** 것도 가능  
+
+          [Markdown Guide][1]
+          [Markdown Guide] [2]
+
+    - (2)은 **대괄호로 묶은 인덱스 옆에 :을** 찍고 **최소 한 칸 띄어쓰기** 한 후 **URL**을 적으면 됨
+    - URL을 **꺽쇠 괄호**로 묶는 것 가능
+    - **" "나 ' ', ( )로 타이틀**을 추가할 수도 있음
+          
+          [1]: https://www.markdownguide.org
+          [1]: https://www.markdownguide.org "Guide of Markdown"
+          [1]: https://www.markdownguide.org 'Guide of Markdown'
+          [1]: https://www.markdownguide.org (Guide of Markdown)
+          [1]: <https://www.markdownguide.org> "Guide of Markdown"
+          [1]: <https://www.markdownguide.org> 'Guide of Markdown'
+          [1]: <https://www.markdownguide.org> (Guide of Markdown)
+
+    - (2)는 **문서 어느 곳에나** 위치할 수 있음
+    - **단락 바로 밑**에 적기도 하고, **각주나 미주처럼** 달기도 함
+
+          This is [reference-style link][2]. The second part of the link is placed below this paragraph.
+
+          [2]: https://www.markdownguide.org/basic-syntax/#reference-style-links "Reference-style Link"
+
+<br><br>
+
+## ***10. Image***
+
+- 마크다운에서의 **이미지 삽입** 문법은 기본적으로 **![](이미지 URL 혹은 path)** 이런 형태를 띔
+- 이미지의 path를 넣을 땐 **절대경로나 상대경로** 모두 가능.
+- 경로 적을 때 이미지 이름과 함께 **이미지 형식**(jpg, png 등) 같이 적는거 잊지 말기
+- 위 **대괄호에는 alt 속성**이 들어감 (이미지 경로에 오류가 있을 때 이미지 대신 띄어주는 텍스트)
+- **타이틀을 " "로 묶어 이미지 주소 옆에** 배치하면 타이틀이 추가됨
+
+
+      ![](https://d33wubrfki0l68.cloudfront.net/722f0d393d543949f94038accfbb3887ba9c318b/f6fc0/assets/images/atom.png)
+
+      ![](./jjang.jpg)
+
+      ![What's Markdown?](https://d33wubrfki0l68.cloudfront.net/722f0d393d543949f94038accfbb3887ba9c318b/f6fc0/assets/images/atom.png)
+
+      ![What's Markdown?](https://d33wubrfki0l68.cloudfront.net/722f0d393d543949f94038accfbb3887ba9c318b/f6fc0/assets/images/atom.png "What is Markdown?")
+
+- **이미지에 링크**를 거는 것도 가능
+- **이미지 문법을 대괄호**로 묶고 **옆에 소괄호로 묶은 URL**을 배치하면 됨
+
+      [![What's Markdown?](https://d33wubrfki0l68.cloudfront.net/722f0d393d543949f94038accfbb3887ba9c318b/f6fc0/assets/images/atom.png "What is Markdown?")](https://www.markdownguide.org/getting-started/)
+
+<br><br>
+
+## ***11. Escaping Character***
+
+- 마크다운에서 텍스트 형식을 지정하는 데 쓰이는 리터럴 문자를 표시할 때는 \을 씀
+
+      \* Without backslash, this would be a list
+
+- The Table of Characters You Can Escape  
+
+    | Character | Name |
+    |:---:|:---:|
+    | \\ | backslash |
+    | \` | backtick |
+    | \* | asterisk |
+    | \_ | underscore |
+    | \{} | curly braces |
+    | \[] | brackets |
+    | \<> | angle brackets |
+    | \() | parentheses |
+    | \# | pound sign |
+    | \+ | plus sign |
+    | \- | minus sign(hyphen) |
+    | \. | dot |
+    | \! | exclamation mark |
+    | \| | pipe |
+
+<br><br>
+
+## ***12. HTML***
+
+- 대부분의 마크다운 어플리케이션은 HTML 태그를 지원함
+- HTML 태그는 텍스트 색상을 지정하거나 이미지 너비를 변경하는 등 요소의 속성을 바꾸는데 유용
+
+      This <em>word</em> is italic.
+
+- **블록 레벨의 HTML 요소**(\<div>, \<table>, \<pre>, \<p> 등)을 사용할 땐 **위 아래로 공백**을 넣어 주변과 분리시킴
+- 형식 지정에 방해가 될 수 있는 **탭이나 스페이스는 자제**해야 됨
+- **HTML 블록 내**에선 **마크다운 문법 사용 불가**
